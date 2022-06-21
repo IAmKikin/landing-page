@@ -63,11 +63,12 @@ span{
     margin-right: auto;
 }
 /* -------------- Top games ---------------- */
-.top{
+.section2{
     text-align: center;
     padding: 40px 280px;
     margin-bottom: 70px;
-    font: 36px #1F2937
+    font: 36px;
+    color: #1F2937
 }
 .gamebox{
     margin-top: 50px;
@@ -85,3 +86,18 @@ span{
     margin-bottom: 10px;
 }
 /* -------------- quote ---------------- */
+.section3{
+    text-align: center;
+    padding: 160px 500px;
+    margin-bottom: 70px;
+    background-color: #E5E7EB;
+    font-size: 16px;
+}
+.quote{
+    font-family: sans-serif;
+    font-style: italic;
+    text-justify: inter-word;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
