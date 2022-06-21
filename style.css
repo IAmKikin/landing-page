@@ -58,6 +58,8 @@ button{
 }
 .ant img{
     width: 400px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
 }
 .ant1 {
     margin-right: auto;
@@ -121,6 +123,18 @@ button{
     display: block;
     flex-direction: column;
 }
+.section4 h3{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
 .two{
     margin-left: auto;
 }
+/* -------------- Footer ---------------- */
+footer{
+    background-color: #1f2937;
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    padding: 40px;
+}  
