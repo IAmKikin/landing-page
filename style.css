@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ------------ Nav ---------------- */
+header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+.logo{
+    font: 24px ;
+    color: #F9FAF8;
+    cursor: pointer;    
+    margin-right: auto;
+}
+nav{
+    display: flex;
+    padding: 20px 280px;
+    margin-bottom: 70px;
+}
+.links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: #F9FAF8;
+}
+/* -------------- Head ---------------- */
+.ant{
+    font: 48px;
+    padding: 20px 280px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.ant span{
+    display: block;
+    margin: 10px 0
+}
+.ant button{
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 0px solid;
+    cursor: pointer;
+    padding: 10px 30px;
+
+}
+.ant img{
+    width: 400px;
+}
+.ant1 {
+    margin-right: auto;
+}
+/* -------------- Top games ---------------- */
