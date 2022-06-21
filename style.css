@@ -45,7 +45,7 @@ span{
     display: block;
     margin: 10px auto
 }
-.ant button{
+button{
     background-color: #3882F6;
     color: white;
     font-size: 16px;
@@ -100,4 +100,27 @@ span{
     font-size: 36px;
     color: #1F2937;
     margin-bottom: 10px;
+}
+/* -------------- Section 4 ---------------- */
+.section4{
+    padding: 20px 280px;
+    margin-bottom: 70px;
+    font: 36px;
+    color: white;
+}
+.section4 div{
+    padding: 20px 50px;
+    background-color: #3882F6;  
+    display: flex;
+    align-content: space-between;
+}
+.section4 button{
+    border: 2px solid white;
+}
+.one{
+    display: block;
+    flex-direction: column;
+}
+.two{
+    margin-left: auto;
 }
